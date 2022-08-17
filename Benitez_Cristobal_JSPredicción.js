@@ -1,5 +1,5 @@
 function myBirthYearFunc(){
-        console.log("Nací en " + 1980);
+        console.log("Nací en " + 2004);
     }
 var año = 2004 
 /*console.log nasci en 2004*/
