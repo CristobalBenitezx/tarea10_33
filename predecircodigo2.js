@@ -39,10 +39,10 @@ console.log(movieLibrary);
 
 /*
 diagrama en t
-variable = movieLibrary
-value = "Bambi", "E.T.", "Toy Story"
-value = ("Zoro")
-movieLibrary = "Beetlejuice"
+varibles | valores 
+movieLibrary   ["Bambi", "E.T.", "Toy Story"];
+movieLibrary   ["Bambi", "E.T.", "Toy Story" ,"Zoro"];
+movieLibrary[1] = ["Bambi", "Beetlejuice", "Toy Story" ,"Zoro"];
 */
 
 
