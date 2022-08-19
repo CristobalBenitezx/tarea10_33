@@ -3,14 +3,14 @@ function muestraInformaciónContacto() {
     console.log(auntContactInfo);
 }
 
+//console.log imprime infomacion personal ["Paula", "Smith", "Calle Principal 1234", "St. Louis", "MO", 12345]//
+
 /*
 diagrama en t
-variable = auntContactInfo
-value = ["Paula", "Smith", "Calle Principal 1234", "St. Louis", "MO", 12345]
+variable | valores
+auntContactInfo  ["Paula", "Smith", "Calle Principal 1234", "St. Louis", "MO", 12345]
 
 */
-//console.log imprime infomacion personal 
-//["Paula", "Smith", "Calle Principal 1234", "St. Louis", "MO", 12345]
 
 function muestraListaDeCompras() {
     var produce = ["manzanas", "naranjas"];
@@ -19,21 +19,23 @@ function muestraListaDeCompras() {
     console.log(frozen);
 }
 
+//console.log imprimir informacion personal  "manzanas","naranjas","croqueta de papa"
+
 /* 
 diagrama en t 
-variable = produce
-variable = frozen
-value = ["manzanas", "naranjas"]
-value = ["brócoli", "helado"]
+variable | valores 
+produce  ["manzanas", "naranjas"]
+ frozen  ["brócoli", "helado"]
+ frozen.push ("croqueta de papa")
 
 */
-//console.log imprimir informacion personal 
-// "manzanas","naranjas","brócoli","helado"
 
 var movieLibrary = ["Bambi", "E.T.", "Toy Story"];
 movieLibrary.push("Zoro");
 movieLibrary[1] = "Beetlejuice";
 console.log(movieLibrary);
+
+//console.log inprimir informacion personal ["Bambi", "E.T.", "Toy Story"], ("Zoro"), ["Beetlejuice"]
 
 /*
 diagrama en t
@@ -42,3 +44,5 @@ value = "Bambi", "E.T.", "Toy Story"
 value = ("Zoro")
 movieLibrary = "Beetlejuice"
 */
+
+
