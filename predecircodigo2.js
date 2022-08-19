@@ -35,7 +35,7 @@ movieLibrary.push("Zoro");
 movieLibrary[1] = "Beetlejuice";
 console.log(movieLibrary);
 
-//console.log inprimir informacion personal ["Bambi", "E.T.", "Toy Story"], ("Zoro"), ["Beetlejuice"]
+/*console.log inprimir informacion personal ["Bambi", "E.T.", "Toy Story"], ("Zoro"), ["Beetlejuice"]*/
 
 /*
 diagrama en t
