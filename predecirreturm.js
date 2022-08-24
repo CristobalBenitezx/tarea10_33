@@ -4,8 +4,8 @@ function hello() {
 hello();
 console.log('Dojo');
 
-//console.log inprime 'hello'
-//console.log inprime 'dojo'
+//console.log inprime hello
+//console.log inprime dojo
 
 function hello() {
     console.log('hello');
@@ -33,7 +33,8 @@ function logAndReturn(num2){
    console.log(num2);   
    return num2;
 }
-var result = logAndReturn(10);
+var result = logAndRe
+urn(10);
 console.log(result);
 console.log(num);
 
@@ -67,8 +68,18 @@ function sumNums(num1, num2) {
  console.log(sumNums(2,3))
  console.log(sumNums(3,5))
 
- //console.log inprime | 5,8
+//console.log | sumNums(num1, num2) = 5,8
+
+function printSumNums(num1, num2) {
+    console.log(num1);   
+    return num1+num2;
+ }
+ console.log(printSumNums(2,3))
+ console.log(printSumNums(3,5))
  
+//console.log inprime | 2 luego suma ambos numeros, resultado es 5
+//console.log inprime | 3 luego suma ambos numeros, resultado es 8
+
  function sumNums(num1, num2) {
     var sum = num1 + num2;
     console.log('sum is', sum);
@@ -77,5 +88,25 @@ function sumNums(num1, num2) {
 var result = sumNums(2,3) + sumNums(3,5);
 console.log('result is', result);
 
-//console.log 
+/* 
+ console.log'sum is', sum) --> 5
+ console.log'sum is', sum) --> 8
+ resul = 13 
+*/
+
+function sumNums(num1, num2) {
+    var sum = num1 + num2;
+    console.log('sum is', sum);
+    return sum;
+}
+var result = sumNums(2,3) + sumNums(3,sumNums(2,1)) + sumNums(sumNums(2,1),sumNums(2,3));
+console.log('result is', result);
+
+/*
+console.log inprime --> 19 
+diagrama en t
+variable valor 
+num1      2,3,2,2,2
+num2      3,1,1,3
+*/
 
